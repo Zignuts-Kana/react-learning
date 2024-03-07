@@ -1,0 +1,31 @@
+.gradient-border {
+  border-width: 2px;
+  border-image: 1.5 linear-gradient(to right, #4f93ce, #8a63b4, #d45087);
+  border-image-slice: 1;
+}
+
+
+
+input:focus {
+  border-width: 2px;
+  border-image: 1 linear-gradient(to right, #4f93ce, #8a63b4, #d45087);
+  outline: none;
+}
+
+.text-gradient {
+  background-image: linear-gradient(to right, #4f93ce, #8a63b4, #d45087);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.text-gradient:hover {
+  background-color: #4f93ce;
+  -webkit-background-clip: unset;
+  color: white;
+}
+
+.text-green-gradient {
+  background-image: linear-gradient(to right, #0af2b4, #6b06e6);
+  -webkit-background-clip: text;
+  color: transparent;
+}
